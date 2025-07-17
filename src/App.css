@@ -17,7 +17,7 @@ html {
 }
 
 .navbar.active {
-  @apply opacity-100 scale-100 blur-0 visible;
+  @apply opacity-100 scale-100 blur-2xl visible;
 }
 
 .nav-link {
