@@ -5,7 +5,7 @@ const works = [
     imgSrc: "/images/Foodie.jpeg",
     title: "Foodie Restaurant Website",
     tags: ["Bootstrap", "Libraries", "Development"],
-    projectLink: "https://musify-5al0.onrender.com/",
+    projectLink: "https://food4foodies.netlify.app/#",
   },
   {
     imgSrc: "/images/innoshwe.png",
@@ -17,7 +17,7 @@ const works = [
     imgSrc: "/images/SWM.jpg",
     title: "Solid Waste Management ",
     tags: ["Development", "SASS", "Bootstrap"],
-    projectLink: "",
+    projectLink: "https://swmlpu.netlify.app",
   },
   {
     imgSrc: "/images/Shopping Site.jpg",
