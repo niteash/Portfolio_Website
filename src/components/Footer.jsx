@@ -27,23 +27,23 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/niteash",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/shwe-win-aung/",
   },
   {
-    label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    label: "X",
+    href: "https://x.com/WinNitesh",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/i_m_nicki",
   },
   {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    label: "Facebook",
+    href: "https://www.facebook.com/this.nikki",
   },
 ];
 
