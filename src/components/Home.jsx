@@ -15,7 +15,7 @@ export default function Home() {
           <h1 className="min-w-0">
             <a href="#" className="logo block">
               <img
-                src="/images/favSWA.png"
+                src="https://res.cloudinary.com/dcdc4hj6v/image/upload/v1752761755/favSWA_cscnax.png"
                 width={40}
                 height={40}
                 alt="Shwe Win Aung"

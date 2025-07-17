@@ -14,7 +14,7 @@ export default function Hero() {
                   className="img-cover"
                   width={40}
                   height={40}
-                  src="/images/smIcon.jpg"
+                  src="https://res.cloudinary.com/dcdc4hj6v/image/upload/v1752761514/smIcon_xtl4cy.jpg"
                   alt="Shwe Win Aung"
                   srcset=""
                 />
@@ -43,7 +43,7 @@ export default function Hero() {
                 className="w-full"
                 width={656}
                 height={800}
-                src="/images/pf3.png"
+                src="https://res.cloudinary.com/dcdc4hj6v/image/upload/v1752761724/pf3_gmftkv.png"
                 alt=""
                 srcset=""
               />
