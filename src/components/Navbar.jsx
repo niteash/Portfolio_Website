@@ -58,7 +58,7 @@ export default function Navbar({ navOpen }) {
   return (
     <nav
       className={
-        "navbar md:blur-0 blur-2xl transition-[filter] " + (navOpen ? "active" : "")
+        "navbar md:blur-0 blur-sm transition-[filter] " + (navOpen ? "active" : "")
       }
     >
       {navItems.map(({ label, link, className, ref }, key) => (
