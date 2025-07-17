@@ -59,7 +59,7 @@ export default function Navbar({ navOpen }) {
     <nav
       className={
         "navbar md:blur-0 blur-2xl transition-[filter] " + (navOpen ? "active" : "")
-      } style={{backdropFilter : "blur(8px)"}}
+      }
     >
       {navItems.map(({ label, link, className, ref }, key) => (
         <a
