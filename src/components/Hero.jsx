@@ -1,6 +1,6 @@
-import {ButtonOutline, ButtonPrimary} from './Button'
-import DownloadIcon from '@mui/icons-material/Download';
-import ArrowDropDownSharpIcon from '@mui/icons-material/ArrowDropDownSharp';
+import { ButtonOutline, ButtonPrimary } from "./Button";
+import DownloadIcon from "@mui/icons-material/Download";
+import ArrowDropDownSharpIcon from "@mui/icons-material/ArrowDropDownSharp";
 
 export default function Hero() {
   return (
@@ -32,9 +32,24 @@ export default function Hero() {
             </h2>
 
             <div className="flex items-center gap-3">
-              <ButtonPrimary label="Download CV" icon={<DownloadIcon className='cv-icon'/>}/>
-              <ButtonOutline href="#about" label="Scroll Down" icon={ <ArrowDropDownSharpIcon className=''/>}/>
-              </div>
+              <a
+                href="/resume.pdf" 
+                download="resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ButtonPrimary
+                  label="Download CV"
+                  icon={<DownloadIcon className="cv-icon" />}
+                />
+              </a>
+
+              <ButtonOutline
+                href="#about"
+                label="Scroll Down"
+                icon={<ArrowDropDownSharpIcon className="" />}
+              />
+            </div>
           </div>
 
           <div className="hidden lg:block">
@@ -43,7 +58,7 @@ export default function Hero() {
                 className="w-full"
                 width={656}
                 height={800}
-                src="https://res.cloudinary.com/dcdc4hj6v/image/upload/v1752761724/pf3_gmftkv.png"
+                src="https://res.cloudinary.com/dcdc4hj6v/image/upload/v1752764397/pf3-3_kr3uce.png"
                 alt=""
                 srcset=""
               />
