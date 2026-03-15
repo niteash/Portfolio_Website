@@ -33,8 +33,8 @@ export default function Hero() {
 
             <div className="flex items-center gap-3">
               <a
-                href="/resume.pdf" 
-                download="resume.pdf"
+                href="/SHWE WIN AUNG - FullStack Developer.pdf"
+                download="SHWE WIN AUNG - FullStack Developer.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
